@@ -23,7 +23,7 @@ variable  "deployment_image" {
 }
 
 variable "deployment_environment" {
-    default = "dev"
+    default = "stage"
 }
 
 variable "deployment_endpoint" {
